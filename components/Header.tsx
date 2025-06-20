@@ -8,7 +8,7 @@ function Header() {
         <Image src={logo} alt="logo" width={45} height={45} />
         <div>
           <h1 className="font-semibold text-gray-500 text-sm">Designer</h1>
-          <p className="font-semibold text-sm">Kynson Dana</p>
+          <p className="font-semibold text-sm">Ashish Tiwari</p>
         </div>
       </div>
       <div className="flex gap-8 text-md items-center mr-4">

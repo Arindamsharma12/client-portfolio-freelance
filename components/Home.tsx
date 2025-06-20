@@ -32,7 +32,7 @@ function Home() {
   const [isVisible, setIsVisible] = useState(false);
 
   const fullText =
-    "Hi, I'm Kyson — Creative Director & Product Designer for founders, startups, and next-gen brands.";
+    "Hi, I’m Ash - I Design Products That Makes Sense To Real People.";
   const [animatedText, isTypingDone] = useTypewriter(fullText, 50);
 
   return (
@@ -43,25 +43,26 @@ function Home() {
         }`}
       >
         <div className="min-h-[70vh]">
-          <div className="relative">
-            <div className="p-7 mt-20">
-              <p className="text-7xl h-96">
+          <div className="">
+            <div className="p-7 my-20">
+              <p className="text-7xl">
                 {" "}
-                {animatedText}
+                {"H" + animatedText}
                 {!isTypingDone && <span className="ml-2 animate-pulse"></span>}
               </p>
             </div>
-            <div className="w-100 absolute mr-5 right-30 -bottom-20 text-xl">
-              <p className="mb-4">
-                I recently led design at{" "}
-                <span className="bg-black text-white px-3 rounded-full">
-                  Rivian
-                </span>{" "}
-                for 5 years. I bring a decade+ of experience transforming
-                brands, creating digital products, and telling stories people
-                believe in.
-              </p>
-              <MoveDown size={80} className="text-orange-600" />
+            <div className="flex justify-center">
+              <div className="w-120 text-xl">
+                <p className="mb-4">
+                  I bring over 5 years of{" "}
+                  <span className="bg-black text-white px-3 rounded-full">
+                    experience
+                  </span>{" "}
+                  transforming brands & creating digital products that make
+                  people feel understood, not just impressed.
+                </p>
+                <MoveDown size={80} className="text-orange-600" />
+              </div>
             </div>
           </div>
         </div>
